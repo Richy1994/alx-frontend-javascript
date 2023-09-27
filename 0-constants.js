@@ -1,23 +1,19 @@
-<!DOCTYPE html>
-<html>
-<body>
+OCTYPE html>
+    <html>
+        <bod>
+        <h2>I prefer const when I can</h2>
+        <p id="demo"></p>
+        <script>
+        export function taskFirst(){
+            Val = 'I prefer const when I can'.;
+            return task;
+        }
+        
+        let hello = "";
+hello = () => " is oka";
 
-<h2>Redeclaring a Variable Using let</h2>
+document.getElementById("demo").innerHTML = hello();
+        </script>
+        </bod>
+    </html>
 
-<p id="demo"></p>
-
-<script>
-let  x = 10;
-// Here x is 10
-
-{  
-  let x = 2;
-  // Here x is 2
-}
-
-// Here x is 10
-document.getElementById("demo").innerHTML = x;
-</script>
-
-</body>
-</html>
